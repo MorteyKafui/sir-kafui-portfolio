@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Navbar from '../Navbar/Navbar';
 import { MainContainer } from './LayoutStyles';
 
 const Layout = ({ children, title }) => {
@@ -7,7 +8,7 @@ const Layout = ({ children, title }) => {
       <Head>
         <title>{title}</title>
       </Head>
-      {/* navar */}
+      <Navbar />
       <MainContainer> {children}</MainContainer>
       {/* footer */}
     </>

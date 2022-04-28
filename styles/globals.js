@@ -37,8 +37,19 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
-#root, #__next {
-  isolation: isolate;
+
+
+ul{
+  list-style: none;
 }
+
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
 
 `;
