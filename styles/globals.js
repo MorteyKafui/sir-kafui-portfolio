@@ -45,6 +45,24 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#191851
+  }
+
+  .description{
+    margin-bottom: 3rem;
+    text-align: center;
+    color:#191851;
+    font-weight: 500;
+
+  }
+
 
 ul{
   list-style: none;

@@ -6,15 +6,6 @@ export const StyledAbout = styled.section`
   padding: 5rem 0;
   min-height: 60vh;
 
-  h2 {
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .about-me {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
