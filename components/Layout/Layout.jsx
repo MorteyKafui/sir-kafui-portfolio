@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
-import { MainContainer } from './LayoutStyles';
 
 const Layout = ({ children, title }) => {
   return (
@@ -10,7 +9,7 @@ const Layout = ({ children, title }) => {
         <title>{title}</title>
       </Head>
       <Navbar />
-      <MainContainer> {children}</MainContainer>
+      <main> {children}</main>
       <Footer />
     </>
   );

@@ -1,37 +1,39 @@
 import Link from 'next/link';
-import { StyledContact } from './ContactStyles';
+import styles from './Contact.module.css';
 
 const Contact = () => {
   return (
-    <StyledContact id='contact'>
+    <section id='contact' className={styles.contact}>
       <div className='main-container'>
-        <h2>Let&apos;s Connect and Build Together 🤩</h2>
-        <p className='description'>
+        <h2 className={styles.subTitle}>
+          Let&apos;s Connect and Build Together 🤩
+        </h2>
+        <p className={`description ${styles.text}`}>
           What are you waiting for, I&apos;m just a click away...
         </p>
-        <div className='connect'>
+        <div className={styles.connect}>
           <p>
             Email:{' '}
             <Link href='mail:morteykafui@gmail.com'>
-              <a>morteykafui@gmail.com</a>
+              <a className={styles.contactLink}>morteykafui@gmail.com</a>
             </Link>{' '}
           </p>
           <p>
             Twitter:{' '}
             <Link href='mail:morteykafui@gmail.com'>
-              <a>Twitter</a>
+              <a className={styles.contactLink}>Twitter</a>
             </Link>{' '}
           </p>
           <p>
             Tel:{' '}
             <Link href='mail:morteykafui@gmail.com'>
-              <a>0240599136</a>
+              <a className={styles.contactLink}>0240599136</a>
             </Link>{' '}
           </p>
         </div>
         <p className='description'>I&apos;ll be glad to hear from you... 🤗</p>
       </div>
-    </StyledContact>
+    </section>
   );
 };
 

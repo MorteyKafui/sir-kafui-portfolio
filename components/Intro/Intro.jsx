@@ -1,24 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
-import { StyledHeader } from './IntroStyles';
+import styles from './Intro.module.css';
 
 const Intro = () => {
   return (
-    <StyledHeader>
-      <div className='container'>
+    <header className={styles.header}>
+      <div className={styles.headerContainer}>
         <h1>Hello World!</h1>
-        <br />
         <p>I'm Mortey_Kafui</p>
-        <br />
         <p>
           a self taught <span>Front-End Developer</span> 🤗
         </p>
-        <br />
         <Link href='#contact'>
           <a>Contact me</a>
         </Link>
       </div>
-    </StyledHeader>
+    </header>
   );
 };
 

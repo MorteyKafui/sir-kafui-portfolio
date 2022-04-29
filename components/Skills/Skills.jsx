@@ -1,16 +1,15 @@
-import React from 'react';
-import { StyledSkills } from './SkillsStyles';
+import styles from './Skills.module.css';
 
 const Skills = () => {
   return (
-    <StyledSkills id='about'>
+    <section id='about' className={styles.skills}>
       <div className='main-container'>
         <h2>Tools I Work With 🔨</h2>
         <p className='description'>
           These are the tech tools I&apos;ve been learning to better my skills
           day by day. Learning never stops...{' '}
         </p>
-        <div className='tools'>
+        <div className={styles.tools}>
           <div className='tool-1'>
             {/* icon */}
             <h3>Html/CSS</h3>
@@ -51,7 +50,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </StyledSkills>
+    </section>
   );
 };
 
