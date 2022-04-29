@@ -29,6 +29,7 @@ const Contact = () => {
             </Link>{' '}
           </p>
         </div>
+        <p className='description'>I&apos;ll be glad to hear from you... 🤗</p>
       </div>
     </StyledContact>
   );

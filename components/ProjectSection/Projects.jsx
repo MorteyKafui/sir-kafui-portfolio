@@ -5,7 +5,7 @@ import { StyledProjects } from './ProjectStyles';
 const Projects = () => {
   return (
     <StyledProjects id='projects'>
-      <h2>Sample Projects I Built</h2>
+      <h2>Sample Projects I Built 🖥️</h2>
       <p className='description'>
         These are projects built with from scratch with the skills I&apos;ve
         learned. It was difficult 😥 and fun 😂 building them.
