@@ -4,11 +4,13 @@ const changeColor = keyframes`
 
 from{
   color: #ff6b91;
+  opacity: 0;
 }
 
 
 to{
     color: #f5f6fb;
+    opacity: 1;
   
 }
 
@@ -23,7 +25,6 @@ export const StyledFooter = styled.section`
   .footer-container {
     max-width: 144rem;
     margin: 0 auto;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;

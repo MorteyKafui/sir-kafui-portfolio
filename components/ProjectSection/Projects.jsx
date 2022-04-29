@@ -31,12 +31,12 @@ const Projects = () => {
               <div className='links'>
                 <Link href='/'>
                   <a>
-                    <i className='fa-brands fa-github'></i> View code
+                    <i className='fa-brands fa-github'></i> Code
                   </a>
                 </Link>
                 <Link href='/'>
                   <a>
-                    <i className='fa-solid fa-code'></i> Live site
+                    <i className='fa-solid fa-code'></i> Live
                   </a>
                 </Link>
               </div>
@@ -66,12 +66,12 @@ const Projects = () => {
               <div className='links'>
                 <Link href='/'>
                   <a>
-                    <i className='fa-brands fa-github'></i> View code
+                    <i className='fa-brands fa-github'></i> Code
                   </a>
                 </Link>
                 <Link href='/'>
                   <a>
-                    <i className='fa-solid fa-code'></i> Live site
+                    <i className='fa-solid fa-code'></i> Live
                   </a>
                 </Link>
               </div>
@@ -101,12 +101,12 @@ const Projects = () => {
               <div className='links'>
                 <Link href='/'>
                   <a>
-                    <i className='fa-brands fa-github'></i> View code
+                    <i className='fa-brands fa-github'></i> Code
                   </a>
                 </Link>
                 <Link href='/'>
                   <a>
-                    <i className='fa-solid fa-code'></i> Live site
+                    <i className='fa-solid fa-code'></i> Live
                   </a>
                 </Link>
               </div>

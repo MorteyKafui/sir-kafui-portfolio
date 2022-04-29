@@ -4,7 +4,6 @@ export const StyledNavbar = styled.nav`
   background-color: #191851;
   color: #f5f6fb;
   height: 10vh;
-  /* border-bottom: 1px solid #f5f6fb; */
 
   position: sticky;
   top: 0;
@@ -22,7 +21,7 @@ export const StyledNavbar = styled.nav`
     height: 100%;
 
     h1 {
-      font-family: 'Lobster Two', cursive;
+      font-family: 'Pattaya', sans-serif;
       font-size: 3rem;
       letter-spacing: 1px;
 

@@ -5,6 +5,7 @@ export const StyledProjects = styled.section`
   padding: 3rem 0;
   color: #191851;
   height: 90vh;
+  font-size: 1.6rem;
 
   .cards {
     display: grid;
@@ -14,7 +15,7 @@ export const StyledProjects = styled.section`
     gap: 3rem;
 
     .card {
-      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.06);
+      box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
       overflow: hidden;
 
@@ -24,13 +25,8 @@ export const StyledProjects = styled.section`
         flex-direction: column;
         gap: 1rem;
 
-        h3 {
-          margin-bottom: 0rem;
-        }
-
         .links {
           display: flex;
-          justify-content: space-between;
           align-items: center;
           gap: 2rem;
 
@@ -38,6 +34,7 @@ export const StyledProjects = styled.section`
             font-size: 2rem;
             color: #ff6b91;
             transition: all 0.3s ease;
+            flex: 1;
 
             &:hover {
               transform: translateY(-2px);
@@ -52,7 +49,7 @@ export const StyledProjects = styled.section`
           padding: 1.2rem 2.4rem;
           text-align: center;
           color: #191851;
-          font-weight: 500;
+          font-weight: 600;
           transition: all 0.3s ease-out;
 
           &:hover {

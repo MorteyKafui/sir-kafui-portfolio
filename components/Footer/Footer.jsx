@@ -9,7 +9,7 @@ const Footer = () => {
         <p>Ready to build with and for you 🔥</p>
         <p>
           &copy; {new Date().getFullYear()}{' '}
-          <span>Everything is permissible! 😊</span>{' '}
+          <span>Everything is permissible! 💡</span>{' '}
         </p>
       </div>
     </StyledFooter>

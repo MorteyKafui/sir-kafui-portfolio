@@ -16,7 +16,7 @@ export const StyledAbout = styled.section`
     p {
       display: flex;
       align-items: flex-start;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
       gap: 2rem;
 
       span {

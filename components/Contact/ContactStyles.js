@@ -28,7 +28,7 @@ export const StyledContact = styled.section`
     transition: all 0.4s ease-in;
 
     &:hover {
-      border-bottom: 1px dotted #f5f6fb;
+      border-bottom: 1px dotted currentColor;
       letter-spacing: 1.3px;
     }
   }

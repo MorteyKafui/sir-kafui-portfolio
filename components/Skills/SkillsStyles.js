@@ -5,6 +5,7 @@ export const StyledSkills = styled.section`
   color: #191851;
   padding: 5rem 0;
   min-height: 60vh;
+  font-size: 1.6rem;
 
   .tools {
     display: grid;

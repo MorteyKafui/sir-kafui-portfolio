@@ -26,7 +26,7 @@ html, body {
 
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.5;
@@ -41,8 +41,15 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+
+
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+  letter-spacing: 1px;
+}
+
+
+ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
@@ -53,7 +60,7 @@ h1{
 
 h2 {
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 2rem;
     display: flex;
@@ -65,8 +72,7 @@ h2 {
 
   h3{
     font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
+    font-weight: 600;
     
   }
 
@@ -74,7 +80,7 @@ h2 {
     margin-bottom: 2rem;
     text-align: center;
     color:#191851;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,11 +101,9 @@ a{
 
 .main-container{
   max-width: 120rem;
-    margin: 0 auto;
-    padding: 2rem 0;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
-
-
 
 
 `;
