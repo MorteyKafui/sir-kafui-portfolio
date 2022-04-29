@@ -4,7 +4,7 @@ export const StyledNavbar = styled.nav`
   background-color: #191851;
   color: #f5f6fb;
   height: 10vh;
-  border-bottom: 1px solid #f5f6fb;
+  /* border-bottom: 1px solid #f5f6fb; */
 
   position: sticky;
   top: 0;
