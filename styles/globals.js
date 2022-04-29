@@ -43,10 +43,17 @@ input, button, textarea, select {
 }
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+  letter-spacing: 1px;
+}
+
+h1{
+  font-weight: 700;
+  line-height: 1.7;
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 3.5rem;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 2rem;
     display: flex;
@@ -55,11 +62,22 @@ h2 {
     color:#191851
   }
 
+
+  h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    
+  }
+
   .description{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
     color:#191851;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
 

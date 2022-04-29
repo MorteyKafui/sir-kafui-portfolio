@@ -40,6 +40,12 @@ export default class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Rubik:wght@400;500;600;700&display=swap'
             rel='stylesheet'
           ></link>
+          <link
+            rel='stylesheet'
+            href='https://use.fontawesome.com/releases/v6.1.1/css/all.css'
+            integrity='sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5'
+            crossOrigin='anonymous'
+          ></link>
         </Head>
         <body>
           <Main />

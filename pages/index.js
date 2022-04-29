@@ -1,6 +1,7 @@
 import About from '../components/About/About';
 import Intro from '../components/Intro/Intro';
 import Layout from '../components/Layout/Layout';
+import Projects from '../components/ProjectSection/Projects';
 import Skills from '../components/Skills/Skills';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Intro />
       <About />
       <Skills />
+      <Projects />
     </Layout>
   );
 }

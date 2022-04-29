@@ -36,12 +36,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <Image
-          src='/assets/icons/sun-icon.svg'
-          alt='mode-icon'
-          width={30}
-          height={30}
-        />
       </div>
     </StyledNavbar>
   );
