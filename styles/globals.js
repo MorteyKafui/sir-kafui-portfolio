@@ -22,6 +22,7 @@ html, body {
 body {
   font-family: 'Rubik', sans-serif;
   font-size: 1.8rem;
+  font-weight: 400;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }

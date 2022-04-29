@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const StyledNavbar = styled.nav`
-  background-color: #f3f3f3;
-  color: #001e3c;
+  background-color: #191851;
+  color: #f5f6fb;
   height: 10vh;
+  border-bottom: 1px solid #f5f6fb;
 
   .container {
     max-width: 144rem;
@@ -19,6 +20,10 @@ export const StyledNavbar = styled.nav`
       font-family: 'Lobster Two', cursive;
       font-size: 3rem;
       letter-spacing: 1px;
+
+      a {
+        color: #ff6b91;
+      }
     }
 
     ul {
@@ -30,13 +35,19 @@ export const StyledNavbar = styled.nav`
       font-weight: 500;
 
       a {
+        color: #f5f6fb;
         padding: 0.5rem 2rem;
-        transition: border-bottom 0.3s ease;
+        transition: all 0.3s ease;
       }
 
       a:hover {
-        border-bottom: 1px dotted #001e3c;
+        color: #ff6b91;
+        letter-spacing: 1.5px;
       }
+    }
+
+    img {
+      background-color: #f5f6fb;
     }
   }
 `;
