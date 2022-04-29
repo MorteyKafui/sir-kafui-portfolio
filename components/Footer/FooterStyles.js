@@ -23,12 +23,10 @@ export const StyledFooter = styled.section`
   .footer-container {
     max-width: 144rem;
     margin: 0 auto;
-    padding: 2rem 0;
 
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 2rem;
 
     h4 {
