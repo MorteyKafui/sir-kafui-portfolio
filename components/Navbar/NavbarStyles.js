@@ -6,6 +6,11 @@ export const StyledNavbar = styled.nav`
   height: 10vh;
   border-bottom: 1px solid #f5f6fb;
 
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
   .container {
     max-width: 144rem;
     margin: 0 auto;
