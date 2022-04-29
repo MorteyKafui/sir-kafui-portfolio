@@ -23,7 +23,16 @@ export const StyledAbout = styled.section`
     align-items: center;
 
     p {
+      display: flex;
+      align-items: flex-start;
       font-size: 1.7rem;
+      gap: 2rem;
+
+      span {
+        font-size: 3rem;
+        color: #001e3c;
+        font-weight: 700;
+      }
     }
   }
 `;
