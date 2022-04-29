@@ -11,9 +11,15 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+
 
 html, body {
-  font-size: 62.5%;
+ 
   height: 100%;
 }
 
@@ -48,6 +54,13 @@ ul{
 a{
   text-decoration: none;
   color: #000;
+}
+
+
+.main-container{
+  max-width: 120rem;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
 
 

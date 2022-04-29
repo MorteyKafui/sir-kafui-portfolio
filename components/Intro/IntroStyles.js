@@ -12,7 +12,7 @@ export const StyledHeader = styled.header`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    min-height: 100%;
 
     h1 {
       font-size: 10rem;

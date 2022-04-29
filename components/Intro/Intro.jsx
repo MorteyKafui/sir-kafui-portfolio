@@ -11,7 +11,7 @@ const Intro = () => {
         <p>I'm Mortey Kakfui</p>
         <br />
         <p>
-          a self taught <span>Front-End Developer</span> 😃
+          a self taught <span>Front-End Developer</span> 🤗
         </p>
         <br />
         <Link href='#contact'>
