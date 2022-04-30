@@ -2,7 +2,6 @@
   margin: 5rem 0;
   padding: 3rem 0;
   color: #191851;
-  height: 90vh;
   font-size: 1.6rem;
 }
 
@@ -18,6 +17,7 @@
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .cards .cardContent {
@@ -59,4 +59,24 @@
   background-color: #191851;
   color: #fff0f4;
   letter-spacing: 0.9px;
+}
+
+@media screen and (max-width: 34em) {
+  .projects .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cards .card {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 26em) {
+  .projects .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cards .card {
+    margin-bottom: 3rem;
+  }
 }

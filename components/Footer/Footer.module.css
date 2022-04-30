@@ -37,3 +37,15 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 34em) {
+  .footerContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 26em) {
+  .footerContainer {
+    flex-direction: column;
+  }
+}

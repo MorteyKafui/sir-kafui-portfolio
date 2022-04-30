@@ -19,7 +19,40 @@ const Projects = () => {
                 alt='project-img'
                 width={500}
                 height={300}
-                layout='intrinsic'
+              />
+            </div>
+            <div className={styles.cardContent}>
+              <h3 className='title'>Project name</h3>
+              <p className='project-desc'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+                sequi?
+              </p>
+              <div className={styles.links}>
+                <Link href='/'>
+                  <a className={styles.link}>
+                    <i className='fa-brands fa-github'></i> Code
+                  </a>
+                </Link>
+                <Link href='/'>
+                  <a className={styles.link}>
+                    <i className='fa-solid fa-code'></i> Live
+                  </a>
+                </Link>
+              </div>
+              <Link href='/'>
+                <a className={styles.btn}>
+                  View details <i className='fa-solid fa-angles-right'></i>
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.card} card-2`}>
+            <div className={styles.cardImage}>
+              <Image
+                src='/assets/project-img.png'
+                alt='project-img'
+                width={500}
+                height={300}
               />
             </div>
             <div className={styles.cardContent}>
@@ -54,42 +87,7 @@ const Projects = () => {
                 alt='project-img'
                 width={500}
                 height={300}
-                layout='intrinsic'
-              />
-            </div>
-            <div className={styles.cardContent}>
-              <h3 className='title'>Project name</h3>
-              <p className='project-desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                sequi?
-              </p>
-              <div className={styles.links}>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-brands fa-github'></i> Code
-                  </a>
-                </Link>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-solid fa-code'></i> Live
-                  </a>
-                </Link>
-              </div>
-              <Link href='/'>
-                <a className={styles.btn}>
-                  View details <i className='fa-solid fa-angles-right'></i>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className={`${styles.card} card-1`}>
-            <div className={styles.cardImage}>
-              <Image
-                src='/assets/project-img.png'
-                alt='project-img'
-                width={500}
-                height={300}
-                layout='intrinsic'
+                objectFit='cover'
               />
             </div>
             <div className={styles.cardContent}>

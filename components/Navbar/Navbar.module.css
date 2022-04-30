@@ -13,7 +13,7 @@
 .container .navbarNav {
   max-width: 144rem;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 1.5rem 3rem;
 }
 
 .navbarNav {
@@ -25,8 +25,8 @@
 
 .navbarNav h1 {
   font-family: 'Pattaya', sans-serif;
-  font-size: 3rem;
-  letter-spacing: 1px;
+  font-size: 4rem;
+  letter-spacing: 1.2px;
 }
 
 .nav h1 a {
@@ -51,4 +51,36 @@
 .navbarNav ul li a:hover {
   color: #ff6b91;
   letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 34em) {
+  .navbarNav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarNav ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 26em) {
+  .navbarNav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarNav ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .navbarNav {
+    height: 100%;
+  }
 }

@@ -6,7 +6,7 @@
 .headerContainer {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,18 +16,18 @@
 }
 
 .headerContainer h1 {
-  font-size: 10rem;
+  font-size: 8rem;
   color: #ff6b91;
 }
 
 .headerContainer p {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #f5f6fb;
 }
 
 .headerContainer p span {
   color: #ff6b91;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .headerContainer a {
@@ -43,4 +43,40 @@
 .headerContainer span {
   color: #ff6b91;
   font-weight: 500;
+}
+
+@media screen and (max-width: 34em) {
+  .headerContainer {
+    align-items: flex-start;
+  }
+
+  .headerContainer h1 {
+    font-size: 5rem;
+  }
+
+  .headerContainer p {
+    font-size: 2.5rem;
+  }
+
+  .headerContainer a {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 26em) {
+  .headerContainer {
+    align-items: flex-start;
+  }
+
+  .headerContainer h1 {
+    font-size: 5rem;
+  }
+
+  .headerContainer p {
+    font-size: 2.5rem;
+  }
+
+  .headerContainer a {
+    font-size: 1.6rem;
+  }
 }

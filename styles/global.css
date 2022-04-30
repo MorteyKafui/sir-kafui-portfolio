@@ -4,8 +4,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
-* {
   margin: 0;
   padding: 0;
 }
@@ -20,7 +18,6 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -32,24 +29,7 @@ svg {
   max-width: 100%;
 }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-  letter-spacing: 1px;
-}
-
 h1,
 h2,
 h3,
@@ -61,7 +41,6 @@ h6 {
 
 h1 {
   font-weight: 700;
-  line-height: 1.7;
 }
 
 h2 {
@@ -102,5 +81,23 @@ a {
 .main-container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 1.5rem 3rem;
+}
+
+@media screen and (max-width: 57em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 26em) {
+  html {
+    font-size: 50%;
+  }
 }

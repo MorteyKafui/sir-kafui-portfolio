@@ -31,7 +31,9 @@ const Contact = () => {
             </Link>{' '}
           </p>
         </div>
-        <p className='description'>I&apos;ll be glad to hear from you... 🤗</p>
+        <p className={`description ${styles.text}`}>
+          I&apos;ll be glad to hear from you... 🤗
+        </p>
       </div>
     </section>
   );
