@@ -16,9 +16,11 @@ const About = () => {
             from my mom 💖 which I used to play computer games. I love games a
             lot. At my young age, my computer was my best friend. I find myself
             spending all day operating it; watching movies,playing games etc.
-            Aside spending time with my PC, I love to read a lot. One day, I
-            asked myself what else I can do to make myself and the computer
-            useful...?
+            Aside spending time with my PC, I love to read a lot. I also love to
+            discuss tech and science stuff with my friends to make mother Earth
+            a better place to live. My favorite personality is Elon Musk. I like
+            him a lot. One day, I asked myself what else I can do to make myself
+            and the computer useful...?
           </p>
           <p className={styles.text}>
             <span className={styles.num}>02</span>
@@ -60,6 +62,18 @@ const About = () => {
             work for and work with you to build wonderful web apps together,
             with my skills.
           </p>
+          <p className={styles.text}>
+            <span className={styles.num}>05</span>
+            I&apos;m glad to announce to you that aside my coding stuff, I enjoy
+            teaching.👨‍🏫 I became a professional teacher in Ghana after I
+            completed college. Currently , I&apos;m located at Dunkwa-offin in
+            the Central Region, where I&apos;ve been posted to work as a
+            teacher. I enjoy hanging around with children in school during my
+            leisure time. I believe kids have great potentials in them...
+            <br />
+            Thank You.
+          </p>
+          <em>&copy; sir_kafui</em>
         </div>
       </div>
     </section>

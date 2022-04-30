@@ -24,6 +24,11 @@
   font-weight: 700;
 }
 
+.aboutMe em {
+  text-align: center;
+  margin-top: 3rem;
+}
+
 @media screen and (max-width: 34em) {
   .aboutMe {
     grid-template-columns: 1fr;
