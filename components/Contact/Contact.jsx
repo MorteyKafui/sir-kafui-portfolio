@@ -14,20 +14,26 @@ const Contact = () => {
         <div className={styles.connect}>
           <p>
             Email:{' '}
-            <Link href='mail:morteykafui@gmail.com'>
-              <a className={styles.contactLink}>morteykafui@gmail.com</a>
+            <Link href='mailto:morteykafui@gmail.com'>
+              <a className={styles.contactLink} target='_blank'>
+                morteykafui@gmail.com
+              </a>
             </Link>{' '}
           </p>
           <p>
             Twitter:{' '}
-            <Link href='mail:morteykafui@gmail.com'>
-              <a className={styles.contactLink}>Twitter</a>
+            <Link href='https://twitter.com/MorteyKafui'>
+              <a className={styles.contactLink} target='_blank'>
+                @MorteyKafui
+              </a>
             </Link>{' '}
           </p>
           <p>
-            Tel:{' '}
-            <Link href='mail:morteykafui@gmail.com'>
-              <a className={styles.contactLink}>0240599136</a>
+            WhatsApp/Call:{' '}
+            <Link href='https://api.whatsapp.com/send?phone=0240599136'>
+              <a className={styles.contactLink} target='_blank'>
+                0240599136
+              </a>
             </Link>{' '}
           </p>
         </div>

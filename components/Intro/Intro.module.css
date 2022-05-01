@@ -38,6 +38,12 @@
   color: #ff6b91;
   font-weight: 500;
   transition: all 0.3s ease-in;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.headerContainer a:hover {
+  letter-spacing: 1px;
 }
 
 .headerContainer span {
