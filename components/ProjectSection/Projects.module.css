@@ -14,7 +14,7 @@
 }
 
 .cards .card {
-  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 2rem;
