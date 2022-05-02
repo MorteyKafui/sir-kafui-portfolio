@@ -14,7 +14,7 @@ const Intro = () => {
         transition={{ duration: 2 }}
       >
         <h1>Hello World!</h1>
-        <p>I'm Mortey_Kafui</p>
+        <p>I'm Mortey Kafui</p>
         <p>
           a self taught <span>Front-End Developer</span> 🤗
         </p>

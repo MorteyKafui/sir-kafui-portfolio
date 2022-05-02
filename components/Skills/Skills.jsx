@@ -12,7 +12,7 @@ const Skills = () => {
         <div className={styles.tools}>
           <div className='tool-1'>
             {/* icon */}
-            <h3>🛠️ Html/CSS</h3>
+            <h3>🛠️ HTML/CSS</h3>
           </div>
           <div className='tool-2'>
             {/* icon */}

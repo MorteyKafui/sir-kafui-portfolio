@@ -27,7 +27,7 @@ const Navbar = () => {
             transition={{ duration: 2, type: 'spring', stiffness: 120 }}
           >
             <Link href='/'>
-              <a>Sir_Kafui</a>
+              <a>Sir Kafui</a>
             </Link>
           </motion.h1>
           <ul>
