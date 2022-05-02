@@ -7,7 +7,7 @@ const Footer = () => {
         <h4>✨little_coder ✨</h4>
         <p>Made with 💖 by Kafui, 🔥</p>
         <p>
-          &copy; {new Date().getFullYear()}{' '}
+          &copy; {new Date().getFullYear()},{' '}
           <span>Everything is permissible! 💡</span>{' '}
         </p>
       </div>
