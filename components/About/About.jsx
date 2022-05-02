@@ -33,47 +33,6 @@ const About = () => {
             Things were not working out well for me though despite the
             tutorials.
           </p>
-          <p className={styles.text}>
-            <span className={styles.num}>03</span>I taught of other ways I can
-            make my myself useful. I taught of the web. How does it work
-            actually? 🤔 After watching a web dev tutorials from Youtube I began
-            learning Html and CSS . I became frustrated and stopped. I asked
-            myself how do android apps work? 🤔 I surf the net and started
-            learning Kotlin for android development. I was scared of Java by
-            then🤣 After reading Pdfs and series of Kotlin tutorials, I gave up
-            because my PC wasn&pos;t powerful enough to run android studio. It
-            just keeps on crashing 20-30 minutes after lauching.😥
-          </p>
-          <p className={styles.text}>
-            <span className={styles.num}>04</span>
-            During my out-programme(final year) after college, I stared learning
-            Python for web development(2nd attempt). I eventually failed because
-            I was learning Django instead of focusing on learning the Python
-            very well. There was no one to guide me. I was a just a little nerd
-            trying things out. In a nutshell, a friend came to the rescue,
-            Joseph. Joseph wanted to buy courses on Udemy and he invited me. We
-            put our resources together and bought few web dev courses from good
-            teachers like Traversy and Angela Yu. I focused very well on the
-            courses learning with my friend, trying to build nice websites. From
-            there, we purchased Javascript courses from teachers like Colt
-            Steele and Jonas. These courses had great imparted in my coding
-            journey. It was not easy. After learning the basics, I moved on to
-            learn React and its ecosystem. With this piece,I&apos;ll like to
-            work for and work with you to build wonderful web apps together,
-            with my skills.
-          </p>
-          <p className={styles.text}>
-            <span className={styles.num}>05</span>
-            I&apos;m glad to announce to you that aside my coding stuff, I enjoy
-            teaching.👨‍🏫 I became a professional teacher in Ghana after I
-            completed college. Currently , I&apos;m located at Dunkwa-offin in
-            the Central Region, where I&apos;ve been posted to work as a
-            teacher. I enjoy hanging around with children in school during my
-            leisure time. I believe kids have great potentials in them...
-            <br />
-            Thank You.
-          </p>
-          <em>&copy; sir_kafui</em>
         </div>
       </div>
     </section>
