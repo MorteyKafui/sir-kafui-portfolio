@@ -3,9 +3,10 @@
   color: #f5f6fb;
   height: 10vh;
 
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 10;
   width: 100%;
 }

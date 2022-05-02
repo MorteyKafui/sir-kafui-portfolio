@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Project title-1",
+      "slug": "project-title-1",
+      "image": "/assets/images/project-img.png",
+      "description": "This is a brief description of this projects..."
+    },
+    {
+      "id": "2",
+      "title": "Project title-2",
+      "slug": "project-titl-2",
+      "image": "/assets/images/project-img.png",
+      "description": "This is a brief description of this projects..."
+    },
+    {
+      "id": "3",
+      "title": "Project title-3",
+      "slug": "project-title-3",
+      "image": "/assets/images/project-img.png",
+      "description": "This is a brief description of this projects..."
+    }
+  ]
+}
