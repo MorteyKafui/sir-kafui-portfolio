@@ -1,7 +1,7 @@
 .contact {
-  background: linear-gradient(to right bottom, #191851, #001e3c);
+  background-color: #191851;
   color: #ff6b91;
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 
 .subTitle,
@@ -10,7 +10,7 @@
 }
 
 .connect {
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin: 5rem 0;
 
   display: flex;
@@ -34,11 +34,9 @@
 
 @media screen and (max-width: 34em) {
   .connect {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
   }
 }
 
@@ -50,7 +48,7 @@
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 18em) {
   .connect {
     grid-template-columns: 1fr;
   }

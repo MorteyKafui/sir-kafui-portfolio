@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Nunito:wght@400;500;600;700&display=swap');
 
 *,
 *::before,
@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -29,13 +29,11 @@ svg {
   max-width: 100%;
 }
 
-p,
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+p {
   letter-spacing: 1px;
 }
 
@@ -75,7 +73,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000;
 }
 
 .main-container {
@@ -86,7 +83,12 @@ a {
 
 @media screen and (max-width: 57em) {
   html {
-    font-size: 55%;
+    font-size: 52%;
+  }
+}
+@media screen and (max-width: 48em) {
+  html {
+    font-size: 49.5%;
   }
 }
 
