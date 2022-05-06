@@ -1,6 +1,30 @@
 .header {
-  background-color: #191851;
+  background: linear-gradient(
+    to left top,
+    #191970,
+    #191851,
+    #002f5d,
+    #25239e,
+    #141b4d
+  );
+  background-size: 400% 400%;
+
+  animation: gradient 4s ease-in infinite alternate;
   height: 80vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
 }
 
 .headerContainer {

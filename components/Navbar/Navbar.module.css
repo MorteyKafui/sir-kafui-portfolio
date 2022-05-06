@@ -1,7 +1,6 @@
 .nav {
   background-color: #191851;
   color: #f5f6fb;
-  height: 10vh;
 
   position: sticky;
   top: 0;
@@ -21,7 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
 }
 
 .navbarNav h1 {
