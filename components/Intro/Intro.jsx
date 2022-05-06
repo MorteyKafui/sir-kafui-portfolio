@@ -16,7 +16,7 @@ const Intro = () => {
         <h1>Hello World!</h1>
         <p>I'm Mortey Kafui,</p>
         <p>
-          a self taught <span>Front-End Developer</span> 🤗
+          a self taught <span>Front-End Developer</span> 👨🏾‍💻
         </p>
         <Link href='#contact'>
           <motion.a
