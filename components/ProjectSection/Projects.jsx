@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Projects.module.css';
@@ -13,144 +14,40 @@ const Projects = ({ results }) => {
       <div className='main-container'>
         <div className={styles.cards}>
           {results.map(el => (
-            <>
-              <div className={`${styles.card} card-1`} key={el.id}>
-                <div className={styles.cardImage}>
-                  <Image
-                    src={el.image}
-                    alt={el.title}
-                    width={500}
-                    height={300}
-                  />
-                </div>
-                <div className={styles.cardContent}>
-                  <h3 className='title'>{el.title}</h3>
-                  <p className='project-desc'>{el.description}</p>
-                  <div className={styles.links}>
-                    <Link href='/'>
-                      <a className={styles.link}>
-                        <i className='fa-brands fa-github'></i> Code
-                      </a>
-                    </Link>
-                    <Link href='/'>
-                      <a className={styles.link}>
-                        <i className='fa-solid fa-code'></i> Live
-                      </a>
-                    </Link>
-                  </div>
-                  <Link href={`/projects/${el.slug}`}>
-                    <a className={styles.btn}>
-                      View details <i className='fa-solid fa-angles-right'></i>
+            <div className={`${styles.card} card-1`} key={el.id}>
+              console.log(el);
+              <div className={styles.cardImage}>
+                <Image
+                  src={el.image}
+                  alt={el.title}
+                  width={550}
+                  height={400}
+                  priority
+                />
+              </div>
+              <div className={styles.cardContent}>
+                <h3 className='title'>{el.title}</h3>
+                <p className='project-desc'>{el.description}</p>
+                <div className={styles.links}>
+                  <Link href={el.repo}>
+                    <a className={styles.link} target='_blank'>
+                      <i className='fa-brands fa-github'></i> Code
+                    </a>
+                  </Link>
+                  <Link href={el.live}>
+                    <a className={styles.link} target='_blank'>
+                      <i className='fa-solid fa-code'></i> Live
                     </a>
                   </Link>
                 </div>
+                <Link href={`/projects/${el.slug}`}>
+                  <a className={styles.btn}>
+                    View details <i className='fa-solid fa-angles-right'></i>
+                  </a>
+                </Link>
               </div>
-            </>
+            </div>
           ))}
-
-          {/* <div className={`${styles.card} card-1`}>
-            <div className={styles.cardImage}>
-              <Image
-                src='/assets/project-img.png'
-                alt='project-img'
-                width={500}
-                height={300}
-              />
-            </div>
-            <div className={styles.cardContent}>
-              <h3 className='title'>Project name</h3>
-              <p className='project-desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                sequi?
-              </p>
-              <div className={styles.links}>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-brands fa-github'></i> Code
-                  </a>
-                </Link>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-solid fa-code'></i> Live
-                  </a>
-                </Link>
-              </div>
-              <Link href='/'>
-                <a className={styles.btn}>
-                  View details <i className='fa-solid fa-angles-right'></i>
-                </a>
-              </Link>
-            </div>
-          </div> */}
-          {/* <div className={`${styles.card} card-2`}>
-            <div className={styles.cardImage}>
-              <Image
-                src='/assets/project-img.png'
-                alt='project-img'
-                width={500}
-                height={300}
-              />
-            </div>
-            <div className={styles.cardContent}>
-              <h3 className='title'>Project name</h3>
-              <p className='project-desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                sequi?
-              </p>
-              <div className={styles.links}>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-brands fa-github'></i> Code
-                  </a>
-                </Link>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-solid fa-code'></i> Live
-                  </a>
-                </Link>
-              </div>
-              <Link href='/'>
-                <a className={styles.btn}>
-                  View details <i className='fa-solid fa-angles-right'></i>
-                </a>
-              </Link>
-            </div>
-          </div> */}
-          {/* <div className={`${styles.card} card-1`}>
-            <div className={styles.cardImage}>
-              <Image
-                src='/assets/project-img.png'
-                alt='project-img'
-                width={500}
-                height={300}
-                objectFit='cover'
-              />
-            </div>
-            <div className={styles.cardContent}>
-              <h3 className='title'>Project name</h3>
-              <p className='project-desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                sequi?
-              </p>
-              <div className={styles.links}>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-brands fa-github'></i> Code
-                  </a>
-                </Link>
-                <Link href='/'>
-                  <a className={styles.link}>
-                    <i className='fa-solid fa-code'></i> Live
-                  </a>
-                </Link>
-              </div>
-              <Link href='/'>
-                <a className={styles.btn}>
-                  View details <i className='fa-solid fa-angles-right'></i>
-                </a>
-              </Link>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

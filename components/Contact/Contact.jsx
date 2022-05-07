@@ -9,7 +9,9 @@ const Contact = () => {
           Let&apos;s Connect and Build Together 🤩
         </h2>
         <p className={`description ${styles.text}`}>
-          What are you waiting for, I&apos;m just a click away...
+          Feel free to contact me if you need a developer to build your next
+          project or if you just want to connect. What are you waiting for,
+          I&apos;m just a click away...
         </p>
         <div className={styles.connect}>
           <p>

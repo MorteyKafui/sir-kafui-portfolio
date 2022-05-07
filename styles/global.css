@@ -15,7 +15,7 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -67,7 +67,8 @@ h3 {
   align-items: center;
 }
 
-ul {
+ul,
+li {
   list-style: none;
 }
 
@@ -79,6 +80,62 @@ a {
   max-width: 120rem;
   margin: 0 auto;
   padding: 1.5rem 3rem;
+}
+
+.details h1 {
+  text-align: center;
+  color: #191851;
+}
+
+.details p span a {
+  color: #ff6b91;
+  text-decoration: underline;
+}
+
+.stack {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  margin: 10rem 0;
+}
+
+.stack p {
+  color: #ff6b91;
+  font-weight: 700;
+}
+
+.stack a,
+li {
+  color: #191851;
+}
+
+.stack .tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.problem {
+  margin: 10rem 0;
+}
+
+.lesson {
+  margin: 10rem 0;
+}
+
+.back {
+  display: inline-block;
+  padding: 1rem 3rem;
+  border: 1px dotted #191851;
+  color: #191851;
+  margin: 5rem 0;
+  transition: all 0.3s ease;
+}
+
+.back:hover {
+  background-color: #191851;
+  color: #fff;
 }
 
 @media screen and (max-width: 57em) {
@@ -96,10 +153,18 @@ a {
   html {
     font-size: 50%;
   }
+
+  .stack {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 26em) {
   html {
     font-size: 50%;
+  }
+
+  .stack {
+    flex-direction: column;
   }
 }
