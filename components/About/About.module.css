@@ -4,20 +4,47 @@
   padding: 10rem 0;
 }
 
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
 .aboutMe .text {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0 0 55%;
+  border: 2px dotted #191851;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.aboutMe img {
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 34em) {
   .aboutMe {
+    flex-direction: column;
     justify-content: flex-start;
+  }
+
+  .aboutMe .text {
+    order: 1;
+    margin: 5rem 0;
   }
 }
 
 @media screen and (max-width: 26em) {
   .aboutMe {
+    flex-direction: column;
     justify-content: flex-start;
+  }
+
+  .aboutMe .text {
+    order: 1;
+    margin: 5rem 0;
   }
 }

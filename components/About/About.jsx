@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './About.module.css';
 
 const About = () => {
@@ -6,7 +7,7 @@ const About = () => {
       <div className='main-container'>
         <h2>Who Am I ? 🧐</h2>
         <p className='description'>
-          A little gossip about my coding journey... 🐸
+          A little gossip about me and my coding journey... 🐸
         </p>
         <div className={styles.aboutMe}>
           <p className={styles.text}>
@@ -29,6 +30,12 @@ const About = () => {
             movies and hang out with friends. I am cool and fun to be with.
             Contact me and let&apos;s works together!🔥
           </p>
+          <Image
+            src='/assets/kafui.jpg'
+            width={400}
+            height={400}
+            alt='kafui photo'
+          />
         </div>
       </div>
     </section>
