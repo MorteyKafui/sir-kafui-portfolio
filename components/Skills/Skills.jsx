@@ -54,6 +54,10 @@ const Skills = () => {
             {/* icon */}
             <h3>🛠️ Figma</h3>
           </div>
+          <div className='tool-12'>
+            {/* icon */}
+            <h3>🛠️ Sass</h3>
+          </div>
         </div>
       </div>
     </section>

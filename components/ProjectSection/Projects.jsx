@@ -15,7 +15,6 @@ const Projects = ({ results }) => {
         <div className={styles.cards}>
           {results.map(el => (
             <div className={`${styles.card} card-1`} key={el.id}>
-              console.log(el);
               <div className={styles.cardImage}>
                 <Image
                   src={el.image}
