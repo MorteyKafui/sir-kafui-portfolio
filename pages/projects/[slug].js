@@ -2,14 +2,25 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../../components/Layout/Layout';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
 export const getStaticPaths = async () => {
-  const data = await fetch('http://localhost:3000/api/projects');
+  // const data = await fetch('http://localhost:3000/api/projects');
 
-  const results = await data.json();
+  // const results = await data.json();
 
-  const paths = results.map(el => ({
-    params: { slug: el.slug },
+  // const paths = results.map(el => ({
+  //   params: { slug: el.slug },
+  // }));
+
+  const files = fs.readdirSync(path.join('projectsData'));
+
+  const paths = files.map(filename => ({
+    params: {
+      slug: filename.replace('.md', ''),
+    },
   }));
 
   return {
@@ -19,21 +30,31 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params: { slug } }) => {
-  const data = await fetch(`http://localhost:3000/api/projects/${slug}`);
+  // const data = await fetch(`http://localhost:3000/api/projects/${slug}`);
 
-  const results = await data.json();
+  // const results = await data.json();
+
+  const markdownWithMeta = fs.readFileSync(
+    path.join('projectsData', slug + '.md'),
+    'utf-8'
+  );
+
+  const { data: frontmatter } = matter(markdownWithMeta);
+
+  console.log(frontmatter);
 
   return {
-    props: { results: results[0] },
+    props: { slug, frontmatter },
     revalidate: 1,
   };
 };
 
-const ProjectsDetails = ({
-  results: { title, summary, live, tech, repo, screenshot, problem, lesson },
-}) => {
+const ProjectsDetails = ({ slug, frontmatter }) => {
+  const { title, summary, live, tech, repo, screenshot, problem, lesson } =
+    frontmatter;
+
   return (
-    <Layout>
+    <Layout title={title}>
       <div className='main-container details'>
         <Link href='/'>
           <a className='back'> &larr; Go Back</a>

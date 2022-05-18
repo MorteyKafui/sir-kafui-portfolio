@@ -21,13 +21,13 @@ export default function Home({ results }) {
 }
 
 export const getStaticProps = async () => {
-  const files = fs.readdirSync(path.join('projects'));
+  const files = fs.readdirSync(path.join('projectsData'));
 
   const results = files.map(filename => {
     const slug = filename.replace('.md', '');
 
     const markdownWithMeta = fs.readFileSync(
-      path.join('projects', filename),
+      path.join('projectsData', filename),
       'utf-8'
     );
 
