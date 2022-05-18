@@ -17,7 +17,7 @@ const Projects = ({ results }) => {
             <div className={`${styles.card} card-1`} key={el.id}>
               <div className={styles.cardImage}>
                 <Image
-                  src={el.image}
+                  src={el.frontmatter.image}
                   alt={el.title}
                   width={550}
                   height={400}
@@ -25,15 +25,15 @@ const Projects = ({ results }) => {
                 />
               </div>
               <div className={styles.cardContent}>
-                <h3 className='title'>{el.title}</h3>
+                <h3 className='title'>{el.frontmatter.title}</h3>
                 <p className='project-desc'>{el.description}</p>
                 <div className={styles.links}>
-                  <Link href={el.repo}>
+                  <Link href={el.frontmatter.repo}>
                     <a className={styles.link} target='_blank'>
                       <i className='fa-brands fa-github'></i> Code
                     </a>
                   </Link>
-                  <Link href={el.live}>
+                  <Link href={el.frontmatter.live}>
                     <a className={styles.link} target='_blank'>
                       <i className='fa-solid fa-code'></i> Live
                     </a>

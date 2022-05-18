@@ -4,6 +4,9 @@ import Intro from '../components/Intro/Intro';
 import Layout from '../components/Layout/Layout';
 import Projects from '../components/ProjectSection/Projects';
 import Skills from '../components/Skills/Skills';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
 export default function Home({ results }) {
   return (
@@ -18,9 +21,23 @@ export default function Home({ results }) {
 }
 
 export const getStaticProps = async () => {
-  const data = await fetch('http://localhost:3000/api/projects');
+  const files = fs.readdirSync(path.join('projects'));
 
-  const results = await data.json();
+  const results = files.map(filename => {
+    const slug = filename.replace('.md', '');
+
+    const markdownWithMeta = fs.readFileSync(
+      path.join('projects', filename),
+      'utf-8'
+    );
+
+    const { data: frontmatter } = matter(markdownWithMeta);
+
+    return {
+      slug,
+      frontmatter,
+    };
+  });
 
   return {
     props: { results },
