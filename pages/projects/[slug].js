@@ -54,7 +54,7 @@ const ProjectsDetails = ({ slug, frontmatter }) => {
     frontmatter;
 
   return (
-    <Layout title={title}>
+    <Layout title={`Sir Kafui | ${title}`}>
       <div className='main-container details'>
         <Link href='/'>
           <a className='back'> &larr; Go Back</a>
@@ -93,7 +93,7 @@ const ProjectsDetails = ({ slug, frontmatter }) => {
         </div>
         <h2>Let&apos;s Build Something Together</h2>
         <p>
-          Feel free to reach out to me if want a developer to build somwthing,
+          Feel free to reach out to me if want a developer to build something,
           or you just want to connect{' '}
           <span>
             <Link href='mailto:morteykafui@gmail.com'>

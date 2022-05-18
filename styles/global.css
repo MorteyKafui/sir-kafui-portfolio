@@ -82,6 +82,10 @@ a {
   padding: 1.5rem 3rem;
 }
 
+.details {
+  color: #191851;
+}
+
 .details h1 {
   text-align: center;
   color: #191851;
