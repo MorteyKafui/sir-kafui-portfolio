@@ -68,12 +68,12 @@ const ProjectsDetails = ({ slug, frontmatter }) => {
               <a target='_blank'>View Live Site</a>
             </Link>{' '}
           </p>
-          <p className='tech'>
+          {/* <p className='tech'>
             Tech Stack:{' '}
             {tech.map(el => (
               <li key={el}>{el}</li>
             ))}
-          </p>
+          </p> */}
           <p>
             Github Repo:{' '}
             <Link href={repo}>
