@@ -32,8 +32,8 @@ const About = () => {
           </p>
           <Image
             src='/assets/kafui.jpg'
-            width={400}
-            height={400}
+            width={350}
+            height={350}
             alt='kafui photo'
           />
         </div>
