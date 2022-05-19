@@ -11,11 +11,13 @@ const About = () => {
         </p>
         <div className={styles.aboutMe}>
           <p className={styles.text}>
-            Hi there, my name is Kafui. I&apos;m a cool 🤓 but curious person
-            who is fascinated by the world of tech and science. I am also a
-            professional teacher who graduated from St.Francis College of
-            Education. After college, I started learning programming, web
-            development to be specific.
+            Hi there, my name is Kafui Mortey. I&apos;m a cool 🤓 but curious
+            person who is fascinated by the world of tech and science. I am also
+            a professional teacher who graduated from St.Francis College of
+            Education. I began coding right after secondary school, which I
+            later stopped because things were not working out as expected. After
+            college, I seriously started learning programming, web development
+            to be specific.
             <br />
             After several years of hardwork, I was able to gain confidence at
             the basics (Html/CSS). Later on, I moved on to learn JavaScript. Due
